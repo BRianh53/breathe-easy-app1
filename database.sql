@@ -1,4 +1,5 @@
 --Add a comment here that explains the purpose of the table and sample data being inserted
+// the purpose of the table and the data being inserted is to choose the time of day the app will check for air quality
 CREATE TABLE observations (
     ID SERIAL PRIMARY KEY,
     SiteID INT,
