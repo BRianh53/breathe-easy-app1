@@ -1,5 +1,8 @@
 --Add a comment here that explains the purpose of the table and sample data being inserted
-CREATE TABLE observations (
+
+//The purpose of this table and the sample data being inserted is that it desplayes the time of day that the air quality app is looking at
+
+    CREATE TABLE observations (
     ID SERIAL PRIMARY KEY,
     SiteID INT,
     ObservationTimeUTC TIMESTAMP,
