@@ -1,4 +1,6 @@
 //Add a comment here to explain the overall purpose of this code
+// the purpose of this code is to get data from a database that shows air quality in a specific area
+
 require('dotenv').config();
 const express = require('express');
 const { Pool } = require('pg');
